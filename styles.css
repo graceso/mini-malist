@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+* {
+  box-sizing: border-box;
+}
+body {
+  align-items: center;
+  background: #292424;
+  display: flex;
+  font-family: 'Inconsolata', sans-serif;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+.container {
+  margin: 18rem auto;
+  max-width: 300px;
+}
+form {
+  margin: 2rem 0;
+}
+form:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+form .field {
+  border: 3px solid #DEEAAD;
+  display: block;
+  float: left;
+  width: 100%;
+}
+form .field.alt {
+  border-top: 0;
+}
+form .field.last {
+  border-left: 0;
+}
+form .field label {
+  color: #DEEAAD;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 1.5rem 2rem 0;
+  text-transform: uppercase;
+}
+form .field input,
+form .field textarea {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  display: block;
+  font-size: 1.3rem;
+  outline: 0;
+  padding: .5rem 2rem 1.5rem;
+  width: 100%;
+}
+form .field textarea {
+  min-height: 100px;
+  resize: vertical;
+}
