@@ -39,7 +39,7 @@ form .field.last {
 form .field label {
   color: #DEEAAD;
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 1px;
   padding: 1.5rem 2rem 0;
@@ -53,7 +53,7 @@ form .field textarea {
   display: block;
   font-size: 1.3rem;
   outline: 0;
-  padding: .5rem 2rem 1.5rem;
+  padding: .5rem 2rem 2rem;
   width: 100%;
 }
 form .field textarea {
