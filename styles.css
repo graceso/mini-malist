@@ -25,7 +25,7 @@ form:after {
   display: table;
 }
 form .field {
-  border: 3px solid #DEEAAD;
+  border: 3px solid #deeaad;
   display: block;
   float: left;
   width: 100%;
@@ -37,7 +37,7 @@ form .field.last {
   border-left: 0;
 }
 form .field label {
-  color: #DEEAAD;
+  color: #deeaad;
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
